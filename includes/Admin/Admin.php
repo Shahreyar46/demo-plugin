@@ -69,8 +69,8 @@ class Admin
     public function add_custom_menu()
     {
         add_menu_page(
-            __('Employee', 'user-info'),
-            __('Employee', 'user-info'),
+            __('Employee', 'demo-plugin'),
+            __('Employee', 'demo-plugin'),
             'manage_options',
             'employee-setting',
             [$this, 'create_employee_page'],
@@ -117,7 +117,7 @@ class Admin
                             </td>
                             
                             <td class="action" width="10%">
-									<button class="button button-default remove-employee"><?php esc_html_e( 'Remove', 'custom-fee' ); ?></button>
+									<button class="button button-default remove-employee"><?php esc_html_e( 'Remove', 'demo-plugin' ); ?></button>
 							</td>
                         </tr>
                     <?php 
@@ -133,7 +133,7 @@ class Admin
                                 </td>
 
                                 <td class="action" width="10%">
-                                        <button class="button button-default remove-employee"><?php esc_html_e( 'Remove', 'custom-fee' ); ?></button>
+                                        <button class="button button-default remove-employee"><?php esc_html_e( 'Remove', 'demo-plugin' ); ?></button>
                                 </td>
                                 </tr>
                              <?php endif; ?>
@@ -141,7 +141,7 @@ class Admin
                     </tbody>
                 </table>
 
-                <a href="#"  id="add-new-employee" class="add-new-employee"><?php esc_html_e('Add More', 'custom-fee'); ?></a>
+                <a href="#"  id="add-new-employee" class="add-new-employee"><?php esc_html_e('Add More', 'demo-plugin'); ?></a>
 
                 <p class="submit">
                     <input id="submit-settings-btn" type="submit" name="Submit" class="button-primary" value="<?php esc_attr_e('Save Settings') ?>" />

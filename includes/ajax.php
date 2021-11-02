@@ -4,7 +4,7 @@
  *
  * Manage all ajax related functionality
  *
- * @package ChiliDevs\WCConversation
+ * @package WpCommerz
  */
 
 declare(strict_types=1);
